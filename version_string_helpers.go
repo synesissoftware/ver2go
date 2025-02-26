@@ -5,11 +5,14 @@
  * accompanying file LICENSE file for details.
  */
 
+/*
+ * Created: 13th February 2025
+ * Updated: 26th February 2025
+ */
+
 package ver2go
 
 import "fmt"
-
-// TODO: move the following into some common library
 
 // Calculates a version string, which is conventionally a dotted string of
 // the form "<MAJOR>.<MINOR>.<PATCH>", where each of <MAJOR>, <MINOR>,
@@ -27,17 +30,17 @@ import "fmt"
 //  1. If both `verMajor` and `verMinor` have the value 0, then the
 //     αβ-designator is a simple number, as in "0.0.13.5432";
 //  2. If `verAB` is >= 0xC000, then αβ-designator designates a "release
-//     candidate" where the RC number is verAB-0xC000, e.g. "0.1.2-rc1" (for a
-//     `verAB` of 0xC002);
+//     candidate" where the RC number is verAB-0xC000, e.g. "0.1.2-rc1" (for
+//     a `verAB` of 0xC002);
 //  2. If `verAB` is >= 0x8000, then αβ-designator designates a "beta" where
 //     the RC number is verAB-0x800), e.g. "0.1.2-beta13" (for a `verAB` of
 //     0x800D);
 //  3. If `verAB` is >= 0x4000, then αβ-designator designates an "alpha"
-//     where the RC number is verAB-0x800), e.g. "0.1.2-alpha7" (for a `verAB`
-//     of 0x8007);
+//     where the RC number is verAB-0x800), e.g. "0.1.2-alpha7" (for a
+//     `verAB` of 0x8007);
 //  4. If `verAB` is > 0, then αβ-designator designates something sub-alpha,
-//     perhaps an experimental release, and is given a plain number form, e.g.
-//     "0.1.2.4660" (for a `verAB` of 0x1234).
+//     perhaps an experimental release, and is given a plain number form,
+//     e.g. "0.1.2.4660" (for a `verAB` of 0x1234).
 func CalcVersionString(verMajor, verMinor, verPatch, verAB uint16) string {
 	if verMajor == 0 && verMinor == 0 && verPatch == 0 {
 		return fmt.Sprintf("%d.%d.%d", verMajor, verMinor, verPatch)
@@ -65,3 +68,5 @@ func CalcVersionString(verMajor, verMinor, verPatch, verAB uint16) string {
 
 	return fmt.Sprintf("%d.%d.%d.%d", verMajor, verMinor, verPatch, verAB)
 }
+
+func
