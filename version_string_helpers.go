@@ -7,7 +7,7 @@
 
 /*
  * Created: 13th February 2025
- * Updated: 26th February 2025
+ * Updated: 1st March 2025
  */
 
 package ver2go
@@ -69,4 +69,3 @@ func CalcVersionString(verMajor, verMinor, verPatch, verAB uint16) string {
 	return fmt.Sprintf("%d.%d.%d.%d", verMajor, verMinor, verPatch, verAB)
 }
 
-func
