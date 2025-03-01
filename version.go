@@ -7,7 +7,7 @@
 
 /*
  * Created: 13th February 2025
- * Updated: 26th February 2025
+ * Updated: 1st March 2025
  */
 
 package ver2go
@@ -16,7 +16,7 @@ const (
 	VersionMajor uint16 = 0
 	VersionMinor uint16 = 0
 	VersionPatch uint16 = 0
-	VersionAB    uint16 = 0x4002
+	VersionAB    uint16 = 0x4003
 	Version      uint64 = (uint64(VersionMajor) << 48) + (uint64(VersionMinor) << 32) + (uint64(VersionPatch) << 16) + (uint64(VersionAB) << 0)
 )
 
