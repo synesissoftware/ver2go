@@ -1,6 +1,8 @@
 # **ver2go** <!-- omit in toc -->
 
-Version utilities for Go
+[![Go Reference](https://pkg.go.dev/badge/github.com/synesissoftware/ver2go.svg)](https://pkg.go.dev/github.com/synesissoftware/ver2go)
+
+**Ver**sion utilities for **Go**
 
 
 ## Introduction
