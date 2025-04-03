@@ -1,6 +1,11 @@
 # **ver2go** Changes <!-- omit in toc -->
 
 
+## 0.0.1 - 3rd April 2025
+
+* various tidyings;
+
+
 ## 0.0.0-alpha3 - 1st March 2025
 
 * fix;
