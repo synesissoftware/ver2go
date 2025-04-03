@@ -5,12 +5,14 @@
  * accompanying file LICENSE file for details.
  */
 
-package ver2go
+package ver2go_test
 
 import (
-	"testing"
+	. "github.com/synesissoftware/ver2go"
 
 	"github.com/stretchr/testify/require"
+
+	"testing"
 )
 
 func Test_Version_String_J_N_P(t *testing.T) {

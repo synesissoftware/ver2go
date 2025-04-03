@@ -69,4 +69,3 @@ func CalcVersionString(verMajor, verMinor, verPatch, verAB uint16) string {
 	return fmt.Sprintf("%d.%d.%d.%d", verMajor, verMinor, verPatch, verAB)
 }
 
-func
