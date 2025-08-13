@@ -3,6 +3,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/synesissoftware/ver2go.svg)](https://github.com/synesissoftware/ver2go/releases/latest)
 [![Go Reference](https://pkg.go.dev/badge/github.com/synesissoftware/ver2go.svg)](https://pkg.go.dev/github.com/synesissoftware/ver2go)
 [![Go Report Card](https://goreportcard.com/badge/github.com/synesissoftware/ver2go)](https://goreportcard.com/report/github.com/synesissoftware/ver2go)
+[![Last Commit](https://img.shields.io/github/last-commit/synesissoftware/ver2go)](https://github.com/synesissoftware/ver2go/commits/master)
 
 
 **Ver**sion utilities for **Go**
