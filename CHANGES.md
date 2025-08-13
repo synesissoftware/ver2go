@@ -1,9 +1,14 @@
 # **ver2go** Changes <!-- omit in toc -->
 
 
+## 0.1.0 - 13th August 2025
+
+* release;
+
+
 ## 0.0.1 - 3rd April 2025
 
-* various tidyings;
+* release preparation;
 
 
 ## 0.0.0-alpha3 - 1st March 2025
