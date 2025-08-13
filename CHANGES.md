@@ -1,6 +1,11 @@
 # **ver2go** Changes <!-- omit in toc -->
 
 
+## 0.1.1 - 13th August 2025
+
+* distro fix;
+
+
 ## 0.1.0 - 13th August 2025
 
 * release;
