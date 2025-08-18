@@ -1,0 +1,22 @@
+
+# directories (by name)
+
+.DS_Store
+
+# directories (by pattern)
+
+# files (by name)
+
+# files (by pattern)
+
+*~
+*.dll
+*.dylib
+*.exe
+*.exe~
+*.out
+*.so
+*.swp
+*.test
+*.tmp
+

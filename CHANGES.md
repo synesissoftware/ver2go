@@ -1,6 +1,13 @@
 # **ver2go** Changes <!-- omit in toc -->
 
 
+## 0.1.2 - 18th August 2025
+
+* GitHub Actions;
+* boilerplate;
+* documentation;
+
+
 ## 0.1.1 - 13th August 2025
 
 * distro fix;
