@@ -1,6 +1,12 @@
 # **ver2go** Changes <!-- omit in toc -->
 
 
+## 0.1.3 - 18th March 2026
+
+* reducing dependencies;
+* tidying;
+
+
 ## 0.1.2 - 18th August 2025
 
 * GitHub Actions;
