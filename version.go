@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2025 Matt Wilson and Synesis Information Systems
+ * Copyright (c) 2025-2026 Matt Wilson and Synesis Information Systems
  *
  * Distributed under the 3-Clause BSD License (aka "New BSD-3 License"). See
  * accompanying file LICENSE file for details.
@@ -7,7 +7,7 @@
 
 /*
  * Created: 13th February 2025
- * Updated: 18th August 2025
+ * Updated: 18th March 2026
  */
 
 package ver2go
@@ -15,7 +15,7 @@ package ver2go
 const (
 	VersionMajor uint16 = 0
 	VersionMinor uint16 = 1
-	VersionPatch uint16 = 2
+	VersionPatch uint16 = 3
 	VersionAB    uint16 = 0xFFFF
 	Version      uint64 = (uint64(VersionMajor) << 48) + (uint64(VersionMinor) << 32) + (uint64(VersionPatch) << 16) + (uint64(VersionAB) << 0)
 )
