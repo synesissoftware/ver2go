@@ -1,4 +1,4 @@
-# **ver2go** <!-- omit in toc -->
+# ver2go <!-- omit in toc -->
 
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![GitHub release](https://img.shields.io/github/v/release/synesissoftware/ver2go.svg)](https://github.com/synesissoftware/ver2go/releases/latest)
