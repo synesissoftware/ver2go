@@ -1,13 +1,14 @@
 # ver2go <!-- omit in toc -->
 
+**Ver**sion utilities for **Go**
+
+![Language](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![GitHub release](https://img.shields.io/github/v/release/synesissoftware/ver2go.svg)](https://github.com/synesissoftware/ver2go/releases/latest)
 [![Last Commit](https://img.shields.io/github/last-commit/synesissoftware/ver2go)](https://github.com/synesissoftware/ver2go/commits/master)
 [![Go](https://github.com/synesissoftware/ver2go/actions/workflows/go.yml/badge.svg)](https://github.com/synesissoftware/ver2go/actions/workflows/go.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/synesissoftware/ver2go)](https://goreportcard.com/report/github.com/synesissoftware/ver2go)
 [![Go Reference](https://pkg.go.dev/badge/github.com/synesissoftware/ver2go.svg)](https://pkg.go.dev/github.com/synesissoftware/ver2go)
-
-**Ver**sion utilities for **Go**
 
 
 ## Introduction
@@ -140,4 +141,3 @@ None
 
 
 <!-- ########################### end of file ########################### -->
-
