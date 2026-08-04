@@ -1,0 +1,2 @@
+ver2go provides version utilities for Go
+Copyright (c) 2025-2026, Matthew Wilson and Synesis Information Systems

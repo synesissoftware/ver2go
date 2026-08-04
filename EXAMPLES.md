@@ -1,4 +1,4 @@
-# ver2go Examples
+# ver2go - Examples <!-- omit in toc -->
 
 | Name | Source & Description | Summary |
 | ---- | -------------------- | ------- |
