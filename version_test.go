@@ -17,7 +17,7 @@ import (
 const (
 	Expected_VersionMajor uint16 = 0
 	Expected_VersionMinor uint16 = 1
-	Expected_VersionPatch uint16 = 3
+	Expected_VersionPatch uint16 = 4
 	Expected_VersionAB    uint16 = 0xFFFF
 )
 
@@ -29,9 +29,9 @@ func Test_Version_Elements(t *testing.T) {
 }
 
 func Test_Version(t *testing.T) {
-	test_helpers.EqualInteger(t, 0x0000_0001_0003_FFFF, Version)
+	test_helpers.EqualInteger(t, 0x0000_0001_0004_FFFF, Version)
 }
 
 func Test_Version_String(t *testing.T) {
-	test_helpers.EqualString(t, "0.1.3", VersionString())
+	test_helpers.EqualString(t, "0.1.4", VersionString())
 }
