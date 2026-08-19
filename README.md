@@ -11,11 +11,6 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/synesissoftware/ver2go.svg)](https://pkg.go.dev/github.com/synesissoftware/ver2go)
 
 
-## Introduction
-
-Provides basic version library for use in Go projects.
-
-
 ## Table of Contents <!-- omit in toc -->
 
 - [Introduction](#introduction)
@@ -29,6 +24,11 @@ Provides basic version library for use in Go projects.
 		- [Development/Testing Dependencies](#developmenttesting-dependencies)
 	- [Dependents](#dependents)
 	- [License](#license)
+
+
+## Introduction
+
+Provides basic version library for use in Go projects.
 
 
 ## Installation

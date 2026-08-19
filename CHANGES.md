@@ -1,4 +1,4 @@
-# ver2go - CHANGES <!-- omit in toc -->
+# ver2go - Changes <!-- omit in toc -->
 
 
 ## 0.1.3 - 18th March 2026
