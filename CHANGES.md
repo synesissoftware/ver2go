@@ -1,6 +1,13 @@
 # ver2go - Changes <!-- omit in toc -->
 
 
+## 0.1.4 - 23rd August 2026
+
+* CI modernisation (matrix + lint);
+* boilerplate additions (scripts, markdown docs, project identity);
+* version string updated for the 0.1.4 release;
+
+
 ## 0.1.3 - 18th March 2026
 
 * reducing dependencies;
