@@ -20,7 +20,7 @@
 
 ## Packaging improvements
 
-* \<none>
+* [ ] Before the next official release: confirm **`go.mod`** (`go 1.21`) and the CI Go-version matrix, then run **`go mod tidy`**; no prior Synesis Go library releases;
 
 
 <!-- ########################### end of file ########################### -->
