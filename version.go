@@ -15,7 +15,7 @@ package ver2go
 const (
 	VersionMajor = 0
 	VersionMinor = 2
-	VersionPatch = 0
+	VersionPatch = 1
 	VersionAB    = Beta1
 )
 
@@ -36,7 +36,7 @@ func Version() uint64 {
 // VersionString returns this library's version as a human-readable string,
 // formed by CalcVersionString from VersionMajor, VersionMinor,
 // VersionPatch, and VersionAB. For a final (non-prerelease) version the
-// result is of the form "MAJOR.MINOR.PATCH", e.g. "0.1.4".
+// result is of the form "MAJOR.MINOR.PATCH", e.g. "0.2.1".
 func VersionString() string {
 	return versionString
 }
