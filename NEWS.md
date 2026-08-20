@@ -1,9 +1,10 @@
 # ver2go - News <!-- omit in toc -->
 
 
-| Date               | News Item                                                                                   |
-| ------------------ | ------------------------------------------------------------------------------------------- |
-| 23rd August 2026   | Release of [**ver2go** 0.1.4](https://github.com/synesissoftware/ver2go/releases/tag/0.1.4) |
+| Date               | News Item                                                                                        |
+| ------------------ | ------------------------------------------------------------------------------------------------ |
+| 20th August 2026   | Release of [**ver2go** 0.2.0-beta1](https://github.com/synesissoftware/ver2go/releases/tag/0.2.0-beta1) |
+| 20th August 2026   | Release of [**ver2go** 0.1.4](https://github.com/synesissoftware/ver2go/releases/tag/0.1.4)      |
 | 18th March 2026    | Release of [**ver2go** 0.1.3](https://github.com/synesissoftware/ver2go/releases/tag/0.1.3) |
 | 18th August 2025   | Release of **ver2go** 0.1.2                                                                 |
 | 13th August 2025   | Release of **ver2go** 0.1.1                                                                 |

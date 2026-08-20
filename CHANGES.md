@@ -1,6 +1,18 @@
 # ver2go - Changes <!-- omit in toc -->
 
 
+## 0.2.0-beta1 - 20th August 2026
+
+* added **CombineVersion()** for packing four 16-bit version components into a **uint64**;
+* added **Version()** (replacing the **Version** constant) and documented **VersionString()**;
+* added αβ convenience constants (**Alpha1**–**Alpha5**, **Beta1**–**Beta5**, **ReleaseCandidate1**–**ReleaseCandidate5**, **Release**);
+* expanded unit-test coverage for **CalcVersionString()** and **CombineVersion()**;
+* CI reliability fix (golangci-lint config verification disabled in CI);
+* macOS test reliability fix in **run_all_unit_tests.sh** (`dyld` / **LC_UUID** mitigation);
+* removed retired Go Report Card badge from **README.md**;
+* version string updated for the 0.2.0-beta1 release;
+
+
 ## 0.1.4 - 23rd August 2026
 
 * CI modernisation (matrix + lint);
