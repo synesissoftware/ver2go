@@ -1,6 +1,14 @@
 # ver2go - Changes <!-- omit in toc -->
 
 
+## 0.2.1-beta1 - 20th August 2026
+
+* enforced Synesis Go import order via **gci** (**.golangci.yml**, **examples/.golangci.yml**);
+* restructured **examples/libver** into **examples/libver/main.go** so `go test ./...` no longer collides on multiple `main`s;
+* updated **examples/libver** to use **VersionString()**;
+* version string updated for the 0.2.1-beta1 release;
+
+
 ## 0.2.0-beta1 - 20th August 2026
 
 * added **CombineVersion()** for packing four 16-bit version components into a **uint64**;
