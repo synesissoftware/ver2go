@@ -15,23 +15,23 @@ import (
 )
 
 const (
-	Expected_VersionMajor uint16 = 0
-	Expected_VersionMinor uint16 = 1
-	Expected_VersionPatch uint16 = 4
-	Expected_VersionAB    uint16 = 0xFFFF
+	expected_VersionMajor uint16 = 0
+	expected_VersionMinor uint16 = 2
+	expected_VersionPatch uint16 = 0
+	expected_VersionAB    uint16 = 0x8001
 )
 
 func Test_Version_Elements(t *testing.T) {
-	test_helpers.EqualInteger(t, Expected_VersionMajor, VersionMajor)
-	test_helpers.EqualInteger(t, Expected_VersionMinor, VersionMinor)
-	test_helpers.EqualInteger(t, Expected_VersionPatch, VersionPatch)
-	test_helpers.EqualInteger(t, Expected_VersionAB, VersionAB)
+	test_helpers.EqualInteger(t, expected_VersionMajor, VersionMajor)
+	test_helpers.EqualInteger(t, expected_VersionMinor, VersionMinor)
+	test_helpers.EqualInteger(t, expected_VersionPatch, VersionPatch)
+	test_helpers.EqualInteger(t, expected_VersionAB, VersionAB)
 }
 
 func Test_Version(t *testing.T) {
-	test_helpers.EqualInteger(t, 0x0000_0001_0004_FFFF, Version())
+	test_helpers.EqualInteger(t, 0x0000_0002_0000_8001, Version())
 }
 
 func Test_Version_String(t *testing.T) {
-	test_helpers.EqualString(t, "0.1.4", VersionString())
+	test_helpers.EqualString(t, "0.2.0-beta1", VersionString())
 }

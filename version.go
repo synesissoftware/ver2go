@@ -14,9 +14,9 @@ package ver2go
 
 const (
 	VersionMajor = 0
-	VersionMinor = 1
-	VersionPatch = 4
-	VersionAB    = 0xFFFF
+	VersionMinor = 2
+	VersionPatch = 0
+	VersionAB    = Beta1
 )
 
 var (

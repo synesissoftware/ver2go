@@ -141,8 +141,7 @@ func Test_CombineVersion_convenience_rc(t *testing.T) {
 }
 
 func Test_CombineVersion_convenience_release(t *testing.T) {
-	test_helpers.EqualInteger(t, Version(), CombineVersion(VersionMajor, VersionMinor, VersionPatch, Release))
-	test_helpers.EqualInteger(t, 0x0000_0001_0004_FFFF, CombineVersion(VersionMajor, VersionMinor, VersionPatch, Release))
+	test_helpers.EqualInteger(t, 0x0001_0002_0003_FFFF, CombineVersion(1, 2, 3, Release))
 }
 
 func Test_CombineVersion_convenience_zero_minor(t *testing.T) {
@@ -176,7 +175,7 @@ func Test_CombineVersion_convenience_zero_minor_zero_patch_rc(t *testing.T) {
 }
 
 func Test_CombineVersion_convenience_zero_minor_release(t *testing.T) {
-	test_helpers.EqualInteger(t, 0x0000_0000_0004_FFFF, CombineVersion(VersionMajor, 0, VersionPatch, Release))
+	test_helpers.EqualInteger(t, 0x0000_0000_0004_FFFF, CombineVersion(0, 0, 4, Release))
 	test_helpers.EqualInteger(t, 0x0001_0000_0000_FFFF, CombineVersion(1, 0, 0, Release))
 	test_helpers.EqualInteger(t, 0x0001_0000_0002_FFFF, CombineVersion(1, 0, 2, Release))
 }

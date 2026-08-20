@@ -584,8 +584,7 @@ func Test_CalcVersionString_convenience_rc(t *testing.T) {
 }
 
 func Test_CalcVersionString_convenience_release(t *testing.T) {
-	test_helpers.EqualString(t, "0.1.4", CalcVersionString(VersionMajor, VersionMinor, VersionPatch, Release))
-	test_helpers.EqualString(t, VersionString(), CalcVersionString(VersionMajor, VersionMinor, VersionPatch, Release))
+	test_helpers.EqualString(t, "1.2.3", CalcVersionString(1, 2, 3, Release))
 }
 
 func Test_CalcVersionString_convenience_zero_minor(t *testing.T) {
@@ -619,7 +618,7 @@ func Test_CalcVersionString_convenience_zero_minor_zero_patch_rc(t *testing.T) {
 }
 
 func Test_CalcVersionString_convenience_zero_minor_release(t *testing.T) {
-	test_helpers.EqualString(t, "0.0.4", CalcVersionString(VersionMajor, 0, VersionPatch, Release))
+	test_helpers.EqualString(t, "0.0.4", CalcVersionString(0, 0, 4, Release))
 	test_helpers.EqualString(t, "1.0.0", CalcVersionString(1, 0, 0, Release))
 	test_helpers.EqualString(t, "1.0.2", CalcVersionString(1, 0, 2, Release))
 }
