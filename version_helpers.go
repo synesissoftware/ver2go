@@ -12,6 +12,43 @@
 
 package ver2go
 
+const (
+	// Convenience constant represent the "-alpha1".
+	Alpha1 = 0x4001
+	// Convenience constant represent the "-alpha2".
+	Alpha2 = 0x4002
+	// Convenience constant represent the "-alpha3".
+	Alpha3 = 0x4003
+	// Convenience constant represent the "-alpha4".
+	Alpha4 = 0x4004
+	// Convenience constant represent the "-alpha5".
+	Alpha5 = 0x4005
+
+	// Convenience constant represent the "-beta1".
+	Beta1 = 0x8001
+	// Convenience constant represent the "-beta2".
+	Beta2 = 0x8002
+	// Convenience constant represent the "-beta3".
+	Beta3 = 0x8003
+	// Convenience constant represent the "-beta4".
+	Beta4 = 0x8004
+	// Convenience constant represent the "-beta5".
+	Beta5 = 0x8005
+
+	// Convenience constant represent the "-rc1".
+	ReleaseCandidate1 = 0xC001
+	// Convenience constant represent the "-rc2".
+	ReleaseCandidate2 = 0xC002
+	// Convenience constant represent the "-rc3".
+	ReleaseCandidate3 = 0xC003
+	// Convenience constant represent the "-rc4".
+	ReleaseCandidate4 = 0xC004
+	// Convenience constant represent the "-rc5".
+	ReleaseCandidate5 = 0xC005
+
+	// Convenience constant represent the final release version.
+	Release = 0xFFFF
+)
 
 // CombineVersion packs four 16-bit version components into a single uint64
 // for compact storage and comparison. Each component occupies a 16-bit
