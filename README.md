@@ -207,10 +207,13 @@ None
 * [**Diagnosticism.Go**](https://github.com/synesissoftware/Diagnosticism.Go/);
 * [**libpath.Go**](https://github.com/synesissoftware/libpath.Go/);
 * [**libCLImate.Go**](https://github.com/synesissoftware/libCLImate.Go);
+* [**p99.Go**](https://github.com/synesissoftware/p99.Go);
 * [**recls.Go**](https://github.com/synesissoftware/recls.Go/);
 * [**shwild.Go**](https://github.com/synesissoftware/shwild.Go/);
 * [**STEGoL**](https://github.com/synesissoftware/STEGoL/);
+* [**syngo**](https://github.com/synesissoftware/syngo/);
 * [**to-be.Go**](https://github.com/synesissoftware/to-be.Go/);
+* [**woad.Go**](https://github.com/synesissoftware/woad.Go/);
 
 
 ### License
