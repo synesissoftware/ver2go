@@ -7,25 +7,36 @@
 
 /*
  * Created: 13th February 2025
- * Updated: 18th March 2026
+ * Updated: 20th August 2026
  */
 
 package ver2go
 
 const (
-	VersionMajor uint16 = 0
-	VersionMinor uint16 = 1
-	VersionPatch uint16 = 4
-	VersionAB    uint16 = 0xFFFF
-	Version      uint64 = (uint64(VersionMajor) << 48) + (uint64(VersionMinor) << 32) + (uint64(VersionPatch) << 16) + (uint64(VersionAB) << 0)
+	VersionMajor = 0
+	VersionMinor = 2
+	VersionPatch = 0
+	VersionAB    = Beta1
 )
 
-// func VersionString
-
 var (
+	version              = CombineVersion(VersionMajor, VersionMinor, VersionPatch, VersionAB)
 	versionString string = CalcVersionString(VersionMajor, VersionMinor, VersionPatch, VersionAB)
 )
 
+// Version returns this library's version as a packed 64-bit integer, formed
+// by CombineVersion from VersionMajor, VersionMinor, VersionPatch, and
+// VersionAB. The result is suitable for numeric comparison: a later release
+// has a strictly greater value than an earlier one that uses the same
+// packing.
+func Version() uint64 {
+	return version
+}
+
+// VersionString returns this library's version as a human-readable string,
+// formed by CalcVersionString from VersionMajor, VersionMinor,
+// VersionPatch, and VersionAB. For a final (non-prerelease) version the
+// result is of the form "MAJOR.MINOR.PATCH", e.g. "0.1.4".
 func VersionString() string {
 	return versionString
 }
