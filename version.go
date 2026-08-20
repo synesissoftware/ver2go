@@ -26,6 +26,11 @@ var (
 	versionString string = CalcVersionString(VersionMajor, VersionMinor, VersionPatch, VersionAB)
 )
 
+
+// VersionString returns this library's version as a human-readable string,
+// formed by CalcVersionString from VersionMajor, VersionMinor,
+// VersionPatch, and VersionAB. For a final (non-prerelease) version the
+// result is of the form "MAJOR.MINOR.PATCH", e.g. "0.1.4".
 func VersionString() string {
 	return versionString
 }
