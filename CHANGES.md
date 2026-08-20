@@ -13,7 +13,7 @@
 * version string updated for the 0.2.0-beta1 release;
 
 
-## 0.1.4 - 23rd August 2026
+## 0.1.4 - 20th August 2026
 
 * CI modernisation (matrix + lint);
 * boilerplate additions (scripts, markdown docs, project identity);
