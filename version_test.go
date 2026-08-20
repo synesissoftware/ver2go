@@ -29,7 +29,7 @@ func Test_Version_Elements(t *testing.T) {
 }
 
 func Test_Version(t *testing.T) {
-	test_helpers.EqualInteger(t, 0x0000_0001_0004_FFFF, Version)
+	test_helpers.EqualInteger(t, 0x0000_0001_0004_FFFF, Version())
 }
 
 func Test_Version_String(t *testing.T) {
