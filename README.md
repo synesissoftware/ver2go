@@ -196,7 +196,7 @@ None
 
 #### Development/Testing Dependencies
 
-* [**require**]("github.com/stretchr/testify/require");
+None
 
 
 ### Dependents
